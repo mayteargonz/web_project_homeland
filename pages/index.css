@@ -1,61 +1,7 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page.css);
-@import url(../blocks/lead.css);
+@import url(../blocks/header.css);
 @import url(../blocks/main.css);
 @import url(../blocks/intro.css);
 @import url(../blocks/footer.css);
-
-/* Estilos para pantallas 544px */
-
-@media screen and (max-width: 544px) {
-  .lead__title {
-    font-size: 40px;
-    line-height: 16px;
-  }
-  .lead__subtitle {
-    font-size: 18px;
-    line-height: 24px;
-  }
-  .intro__heading {
-    font-size: 32px;
-  }
-  .intro__quote,
-  .intro__author {
-    font-size: 24px;
-  }
-}
-
-/* Estilos para pantallas 545px a 1024px */
-
-@media screen and (min-width: 545px) and (max-width: 1024px) {
-  .lead__title {
-    font-size: 75px;
-  }
-  .lead__subtitle {
-    font-size: 30px;
-  }
-  .intro__heading {
-    font-size: 45px;
-  }
-}
-
-/* Estilos para pantallas de más de 1024px */
-
-@media screen and (min-width: 1025px) {
-  .lead__title {
-    font-size: 96px;
-  }
-  .lead__subtitle {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-    .lead__image {
-      max-width: 90%; /* La imagen será el 90% del contenedor */
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .lead__image {
-      max-width: 100%; /* Ocupará el 100% del contenedor */
-    }

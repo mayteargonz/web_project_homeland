@@ -16,25 +16,29 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://rsms.me/" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
   </head>
   <body>
     <div class="page">
-    <header class="header">
-        <img class="header__logo"
-        src="./images/logo.svg"
-        alt="Logo galería Tripleten"
-      />      
-        <div class="lead">
-          <h1 class="lead__title">De patria a patria</h1>
-          <p class="lead__subtitle">
+      <header class="header">
+        <img
+          class="header__logo"
+          src="./images/logo.svg"
+          alt="Logo galería Tripleten"
+        />
+        <section class="header__content">
+          <h1 class="header__title">De patria a patria</h1>
+          <p class="header__subtitle">
             Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
           </p>
-          <img class="lead__image">
-            <img src="./images/__image.png" alt="Fotografía de una ciudad" />
-          </img>
-        </div>
+          <div class="header__content-image">
+            <img
+              class="header__image"
+              src="./images/__image.png"
+              alt="Fotografía de una ciudad"
+            />
+          </div>
+        </section>
       </header>
       <main class="main">
         <section class="intro">
@@ -61,10 +65,10 @@
             nos alegra que seas nuestro vecino.
           </p>
         </section>
-        <footer class="footer">
-          <p class="footer__copyright">© 2024. Mayté Arias</p>
-        </footer>
       </main>
+      <footer class="footer">
+        <p class="footer__copyright">© 2024. Mayté Arias</p>
+      </footer>
     </div>
   </body>
 </html>
