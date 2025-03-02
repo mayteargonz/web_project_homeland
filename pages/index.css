@@ -24,7 +24,7 @@
   }
 }
 
-/* Estilos para pantallas 545px a 1024px 
+/* Estilos para pantallas 545px a 1024px */
 
 @media screen and (min-width: 545px) and (max-width: 1024px) {
   .lead__title {
@@ -37,7 +37,9 @@
     font-size: 45px;
   }
 }
-  
+
+/* Estilos para pantallas de más de 1024px */
+
 @media screen and (min-width: 1025px) {
   .lead__title {
     font-size: 96px;
@@ -46,4 +48,14 @@
     font-size: 30px;
   }
 }
-/* Estilos para pantallas de más de 1024px */
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+      max-width: 90%; /* La imagen será el 90% del contenedor */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .lead__image {
+      max-width: 100%; /* Ocupará el 100% del contenedor */
+    }
