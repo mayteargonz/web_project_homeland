@@ -126,12 +126,10 @@
     grid-area: website;
     align-self: end;
     max-width: 288px;
-    margin-left: 16px;
   }
   .place__paragraph {
     font-size: 16px;
     max-width: 288px;
-    margin-left: 16px;
   }
   .place__button {
     width: 248px;
